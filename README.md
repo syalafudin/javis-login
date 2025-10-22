@@ -75,4 +75,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 admin@javis.com
 password123
 
+![Login Page (Desktop)](screenshots/login-mob.png)
 ![Login Page (Desktop)](screenshots/login.png)
+![Login Page (Desktop)](screenshots/dashboard.png)
+![Login Page (Desktop)](screenshots/dashboard-mob.png)
