@@ -55,22 +55,22 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 1. **Clone repository**
-   git clone https://github.com/syalafudin/javis-login.git
-   cd javis-login-challenge
+   - git clone https://github.com/syalafudin/javis-login.git
+   - cd javis-login-challenge
 
 2. **Install dependensi**
-   npm install
+   - npm install
 
 3. **Setup environment**
-   DATABASE_URL="mysql://root:root@localhost:8889/javis_auth" (Sesuaikan dengan kredensial MySQL)
-   JWT_SECRET="javis_teknologi_rahasia_2025"
+   - DATABASE_URL="mysql://root:root@localhost:8889/javis_auth" (Sesuaikan dengan kredensial MySQL)
+   - JWT_SECRET="javis_teknologi_rahasia_2025"
 
 4. **Setup database**
-   npx prisma db push
-   npx prisma db seed
+   - npx prisma db push
+   - npx prisma db seed
 
 4. **Jalankan aplikasi**
-   npm run dev
+   - npm run dev
 
 admin@javis.com
 password123
