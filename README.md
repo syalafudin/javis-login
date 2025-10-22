@@ -77,5 +77,5 @@ password123
 
 ![Login Page (Desktop)](screenshots/login-mob.png)
 ![Login Page (Desktop)](screenshots/login.png)
-![Login Page (Desktop)](screenshots/dashboard.png)
 ![Login Page (Desktop)](screenshots/dashboard-mob.png)
+![Login Page (Desktop)](screenshots/dashboard.png)
