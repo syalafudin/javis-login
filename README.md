@@ -36,10 +36,41 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-Next.js 14 (App Router)
-Tailwind CSS
-Prisma + MySQL
-JWT + HttpOnly Cookie
+## Tech Stack
+
+- **Frontend**: React.js + Next.js (App Router)
+- **Styling**: Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: MySQL (via Prisma ORM)
+- **Auth**: bcrypt + JWT
+- **Testing**: Jest + React Testing Library
+- **Deployment**: Vercel (opsional)
+
+---
+
+### 
+- Node.js ≥ 18
+- npm atau pnpm
+- MySQL (MAMP/XAMPP)
+
+
+1. **Clone repository**
+   git clone https://github.com/syalafudin/javis-login.git
+   cd javis-login-challenge
+
+2. **Install dependensi**
+   npm install
+
+3. **Setup environment**
+   DATABASE_URL="mysql://root:root@localhost:8889/javis_auth" (Sesuaikan dengan kredensial MySQL)
+   JWT_SECRET="javis_teknologi_rahasia_2025"
+
+4. **Setup database**
+   npx prisma db push
+   npx prisma db seed
+
+4. **Jalankan aplikasi**
+   npm run dev
 
 admin@javis.com
 password123
